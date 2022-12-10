@@ -11,6 +11,7 @@
 		E38F16C02943242800C7DF9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38F16BF2943242800C7DF9D /* ContentView.swift */; };
 		E38F16C22943242F00C7DF9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E38F16C12943242F00C7DF9D /* Assets.xcassets */; };
 		E38F16C52943242F00C7DF9D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E38F16C42943242F00C7DF9D /* Preview Assets.xcassets */; };
+		E38F16CD294495E500C7DF9D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38F16CC294495E400C7DF9D /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		E38F16BF2943242800C7DF9D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E38F16C12943242F00C7DF9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E38F16C42943242F00C7DF9D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E38F16CC294495E400C7DF9D /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		E38F16BC2943242800C7DF9D /* CryptoFolio */ = {
 			isa = PBXGroup;
 			children = (
+				E38F16CB294495BF00C7DF9D /* Extensions */,
 				E38F16BD2943242800C7DF9D /* CryptoFolioApp.swift */,
 				E38F16BF2943242800C7DF9D /* ContentView.swift */,
 				E38F16C12943242F00C7DF9D /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				E38F16C42943242F00C7DF9D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E38F16CB294495BF00C7DF9D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E38F16CC294495E400C7DF9D /* Color.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				E38F16C02943242800C7DF9D /* ContentView.swift in Sources */,
 				E38F16BE2943242800C7DF9D /* CryptoFolioApp.swift in Sources */,
+				E38F16CD294495E500C7DF9D /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
