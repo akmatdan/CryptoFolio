@@ -10,8 +10,12 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
-            Color.red
+            Color.theme.background
                 .ignoresSafeArea()
+            
+            VStack {
+                
+            }
         }
     }
 }
@@ -19,5 +23,7 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .preferredColorScheme(.dark)
+.previewInterfaceOrientation(.portrait)
     }
 }
