@@ -25,6 +25,7 @@
 		E38F16C52943242F00C7DF9D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E38F16C42943242F00C7DF9D /* Preview Assets.xcassets */; };
 		E38F16CD294495E500C7DF9D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38F16CC294495E400C7DF9D /* Color.swift */; };
 		E3A4BAC4295DAA0C00ECF8A5 /* CoinImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A4BAC3295DAA0C00ECF8A5 /* CoinImageViewModel.swift */; };
+		E3A4BAC62962BD9D00ECF8A5 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A4BAC52962BD9D00ECF8A5 /* LocalFileManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		E38F16C42943242F00C7DF9D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E38F16CC294495E400C7DF9D /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		E3A4BAC3295DAA0C00ECF8A5 /* CoinImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageViewModel.swift; sourceTree = "<group>"; };
+		E3A4BAC52962BD9D00ECF8A5 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				E36862D8294DF37400DF4A59 /* NetworkManager.swift */,
+				E3A4BAC52962BD9D00ECF8A5 /* LocalFileManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				E36862D3294C436700DF4A59 /* HomeViewModel.swift in Sources */,
 				E3828C22295DA26900AE8D85 /* CoinImageServices.swift in Sources */,
 				E38F16C02943242800C7DF9D /* ContentView.swift in Sources */,
+				E3A4BAC62962BD9D00ECF8A5 /* LocalFileManager.swift in Sources */,
 				E36862D9294DF37400DF4A59 /* NetworkManager.swift in Sources */,
 				E34ED70B2945A30A00C07AEA /* HomeView.swift in Sources */,
 				E3828C20295D74B900AE8D85 /* CoinImageView.swift in Sources */,
