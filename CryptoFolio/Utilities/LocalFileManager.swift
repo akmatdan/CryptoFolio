@@ -15,7 +15,9 @@ class LocalFileManager {
     
     func saveImage(image: UIImage) {
         
-        let 
+        guard let data = image.pngData() else { return }
+        
+        data.write(to: <#T##URL#>)
     }
     
 }
